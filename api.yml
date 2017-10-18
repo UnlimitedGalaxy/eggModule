@@ -1,0 +1,106 @@
+swagger: "2.0"
+
+info:
+  version: 1.0.0
+  title: ugc plaform
+  description: 连接ugc后台和前端
+
+schemes:
+ - https
+ host: simple.api
+ basePath: /api
+
+ paths:
+  /persions:
+    get:
+      summary: Gets table datas
+      description: Return table data
+      parameters:
+        - name: offset
+          in: query
+          description: Number of persons returned
+          type: integer
+        - name: pageSize
+          in: query
+          description: page size
+          type: integer
+      responses:
+        200:
+          description: a list of table data
+          schema:
+            type: array
+            items:
+              required:
+                - username
+              properties:
+                firstname:
+                  type: string
+                lastname:
+                  type: string
+                username:
+                  type: string
+  /persons/{username}:
+    get:
+      summary: Gets a person
+      description: Returns a single person for its username
+      parameters:
+        - name: username
+          in: path
+          required: true
+          description: The person's username
+          type: string
+      responses:
+        200:
+          description: A person
+          type: object
+          schema:
+            required:
+              - username
+            properties:
+              firstName:
+                type: string
+              lastName:
+                type: string
+              username:
+                type: string
+        404:
+          description: The Person does not exists.
+  /creation:
+    post:
+      summary: Creates a person
+      description: Adds a new person to the persons list.
+      parameters:
+        - name: person
+          in: body
+          description: The person to create.
+          schema:
+            required:
+              - username
+            properties:
+              firstName:
+                type: string
+              lastName:
+                type: string
+              username:
+                type: string
+      responses:
+        204:
+          description: Persons succesfully created.
+        400:
+          description: Persons couldn't have been created.
+
+definitions:
+  Person:
+    required:
+      - username
+    properties:
+      firstName:
+        type: string
+      lastName:
+        type: string
+      username:
+        type: string
+  Persons:
+    type: array
+    items:
+      $ref: "#/definitions/"
