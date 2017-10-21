@@ -1,0 +1,492 @@
+2017-10-18 16:53:38,688 ERROR 25644 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:380:11)
+    at Object.module.exports.remove (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:478:14)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:176:10)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:92:31)
+    at rq.get.then.catch.e (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:23:14)
+    at tryCatcher (E:\My\study\myEgg\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+name: 'unhandledRejectionError'
+pid: 25644
+hostname: UC-20170619XOAS
+
+2017-10-18 16:53:41,702 ERROR 25644 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:380:11)
+    at Object.module.exports.remove (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:478:14)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:176:10)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:92:31)
+    at rq.get.then.catch.e (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:23:14)
+    at tryCatcher (E:\My\study\myEgg\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+name: 'unhandledRejectionError'
+pid: 25644
+hostname: UC-20170619XOAS
+
+2017-10-18 16:53:56,549 ERROR 13220 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:380:11)
+    at Object.module.exports.remove (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:478:14)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:176:10)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:92:31)
+    at rq.get.then.catch.e (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:23:14)
+    at tryCatcher (E:\My\study\myEgg\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+name: 'unhandledRejectionError'
+pid: 13220
+hostname: UC-20170619XOAS
+
+2017-10-18 16:53:58,798 ERROR 13220 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:380:11)
+    at Object.module.exports.remove (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:478:14)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:176:10)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:92:31)
+    at rq.get.then.catch.e (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:23:14)
+    at tryCatcher (E:\My\study\myEgg\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+name: 'unhandledRejectionError'
+pid: 13220
+hostname: UC-20170619XOAS
+
+2017-10-18 16:54:38,752 ERROR 13220 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:380:11)
+    at Object.module.exports.remove (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:478:14)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:176:10)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:92:31)
+    at rq.get.then.catch.e (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:23:14)
+    at tryCatcher (E:\My\study\myEgg\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+name: 'unhandledRejectionError'
+pid: 13220
+hostname: UC-20170619XOAS
+
+2017-10-18 16:56:03,573 ERROR 10896 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:380:11)
+    at Object.module.exports.remove (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:478:14)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:176:10)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:92:31)
+    at rq.then.catch.e (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:23:14)
+    at tryCatcher (E:\My\study\myEgg\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+name: 'unhandledRejectionError'
+pid: 10896
+hostname: UC-20170619XOAS
+
+2017-10-18 16:56:06,313 ERROR 10896 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:380:11)
+    at Object.module.exports.remove (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:478:14)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:176:10)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:92:31)
+    at rq.then.catch.e (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:23:14)
+    at tryCatcher (E:\My\study\myEgg\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+name: 'unhandledRejectionError'
+pid: 10896
+hostname: UC-20170619XOAS
+
+2017-10-18 17:09:51,245 ERROR 9176 nodejs.unhandledRejectionError: Can't remove headers after they are sent
+    at ServerResponse.OutgoingMessage.removeHeader (_http_outgoing.js:380:11)
+    at Object.module.exports.remove (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:478:14)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\response.js:176:10)
+    at Object.body (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:92:31)
+    at rq.then.catch.e (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:24:14)
+    at tryCatcher (E:\My\study\myEgg\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\My\study\myEgg\node_modules\bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\My\study\myEgg\node_modules\bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+name: 'unhandledRejectionError'
+pid: 9176
+hostname: UC-20170619XOAS
+
+2017-10-18 18:10:44,848 ERROR 11496 nodejs.unhandledExceptionError: read ECONNRESET
+    at exports._errnoException (util.js:949:11)
+    at TCP.onread (net.js:563:26)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 11496
+hostname: UC-20170619XOAS
+
+2017-10-18 18:27:06,078 ERROR 11496 nodejs.unhandledExceptionError: read ECONNRESET
+    at exports._errnoException (util.js:949:11)
+    at TCP.onread (net.js:563:26)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 11496
+hostname: UC-20170619XOAS
+
+2017-10-18 18:35:41,877 ERROR 27744 [-/-/::1/17134030-b3f0-11e7-b8da-db37031a6bb1/5ms GET /favicon.ico] nodejs.InternalServerError: a security problem has been detected for url "https://www.alibaba.com/favicon.ico", redirection is prohibited.
+    at Object.module.exports.throw (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\context.js:89:23)
+    at Object.redirect (E:\My\study\myEgg\node_modules\egg-security\lib\safe_redirect.js:64:34)
+    at Object.proto.(anonymous function) [as redirect] (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:40:31)
+    at Object.siteFile (E:\My\study\myEgg\node_modules\_egg@1.9.0@egg\app\middleware\site_file.js:17:50)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.createPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:30:15)
+    at Server.handleRequest (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\application.js:136:8)
+    at emitTwo (events.js:106:13)
+    at Server.emit (events.js:191:7)
+message: 'a security problem has been detected for url "https://www.alibaba.com/favicon.ico", redirection is prohibited.'
+pid: 27744
+hostname: UC-20170619XOAS
+
+2017-10-18 20:24:24,718 ERROR 28460 [-/-/127.0.0.1/46fdf3d0-b3ff-11e7-8127-a740c96619bc/172ms POST /api/watermarker/data/creation] nodejs.TypeError: ctx.model.User.insert is not a function
+    at ListData.postListData (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:37:24)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+
+pid: 28460
+hostname: UC-20170619XOAS
+
+2017-10-18 20:31:35,752 ERROR 16600 [-/-/127.0.0.1/47e88570-b400-11e7-bba8-ab5b20208a05/222ms POST /api/watermarker/data/creation] nodejs.TypeError: ctx.model.User.insert is not a function
+    at ListData.postListData (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:38:24)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+
+pid: 16600
+hostname: UC-20170619XOAS
+
+2017-10-18 20:42:03,490 ERROR 6636 [-/-/127.0.0.1/be11bd10-b401-11e7-9e86-4df574c2cdf1/183ms POST /api/watermarker/data/creation] nodejs.TypeError: ctx.model.User.insert is not a function
+    at ListData.postListData (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:38:24)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+
+pid: 6636
+hostname: UC-20170619XOAS
+
+2017-10-18 20:46:34,801 ERROR 23760 [-/-/127.0.0.1/5fc85bf0-b402-11e7-ae8a-9b053b5fc2e2/129ms POST /api/watermarker/data/creation] nodejs.TypeError: ctx.model.User.insert is not a function
+    at ListData.postListData (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:38:24)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+
+pid: 23760
+hostname: UC-20170619XOAS
+
+2017-10-18 20:49:21,456 ERROR 23760 [-/-/127.0.0.1/c31d96c0-b402-11e7-ae8a-9b053b5fc2e2/21ms POST /api/watermarker/data/creation] nodejs.TypeError: ctx.model.User.insert is not a function
+    at ListData.postListData (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:38:24)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+
+pid: 23760
+hostname: UC-20170619XOAS
+
+2017-10-18 20:51:03,296 ERROR 6292 [-/-/127.0.0.1/ffd198f0-b402-11e7-bbe1-f9de5a7ed20b/92ms POST /api/watermarker/data/creation] nodejs.TypeError: ctx.model.User.save is not a function
+    at ListData.postListData (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:38:24)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+
+pid: 6292
+hostname: UC-20170619XOAS
+
+2017-10-19 11:38:24,697 ERROR 672 [egg-mongoose] mongodb://127.0.0.1:27017/example disconnected
+2017-10-19 11:38:24,703 ERROR 672 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at .<anonymous> (E:\My\study\myEgg\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at .<anonymous> (E:\My\study\myEgg\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at g (events.js:286:16)
+    at emitTwo (events.js:106:13)
+    at emit (events.js:191:7)
+    at Socket.<anonymous> (E:\My\study\myEgg\node_modules\mongodb-core\lib\connection\connection.js:187:49)
+    at Socket.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1272:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 672
+hostname: UC-20170619XOAS
+
+2017-10-19 11:46:38,258 ERROR 13512 [egg-mongoose] mongodb://127.0.0.1:27017/example disconnected
+2017-10-19 11:46:38,266 ERROR 13512 nodejs.MongoError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at .<anonymous> (E:\My\study\myEgg\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at emitOne (events.js:96:13)
+    at emit (events.js:188:7)
+    at .<anonymous> (E:\My\study\myEgg\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at g (events.js:286:16)
+    at emitTwo (events.js:106:13)
+    at emit (events.js:191:7)
+    at Socket.<anonymous> (E:\My\study\myEgg\node_modules\mongodb-core\lib\connection\connection.js:187:49)
+    at Socket.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1272:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+name: 'MongoError'
+message: '[egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]'
+pid: 13512
+hostname: UC-20170619XOAS
+
+2017-10-21 10:33:33,355 ERROR 3716 [-/-/::1/3b925990-b608-11e7-84f0-c1447185ee53/6ms GET /favicon.ico] nodejs.InternalServerError: a security problem has been detected for url "https://www.alibaba.com/favicon.ico", redirection is prohibited.
+    at Object.module.exports.throw (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\context.js:89:23)
+    at Object.redirect (E:\My\study\myEgg\node_modules\egg-security\lib\safe_redirect.js:64:34)
+    at Object.proto.(anonymous function) [as redirect] (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:40:31)
+    at Object.siteFile (E:\My\study\myEgg\node_modules\_egg@1.9.0@egg\app\middleware\site_file.js:17:50)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.createPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:30:15)
+    at Server.handleRequest (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\application.js:136:8)
+    at emitTwo (events.js:106:13)
+    at Server.emit (events.js:191:7)
+message: 'a security problem has been detected for url "https://www.alibaba.com/favicon.ico", redirection is prohibited.'
+pid: 3716
+hostname: UC-20170619XOAS
+
+2017-10-21 10:33:51,947 ERROR 7692 [-/-/::1/46a71c80-b608-11e7-95fa-43a41745c390/7ms GET /favicon.ico] nodejs.InternalServerError: a security problem has been detected for url "https://www.alibaba.com/favicon.ico", redirection is prohibited.
+    at Object.module.exports.throw (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\context.js:89:23)
+    at Object.redirect (E:\My\study\myEgg\node_modules\egg-security\lib\safe_redirect.js:64:34)
+    at Object.proto.(anonymous function) [as redirect] (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:40:31)
+    at Object.siteFile (E:\My\study\myEgg\node_modules\_egg@1.9.0@egg\app\middleware\site_file.js:17:50)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.createPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:30:15)
+    at Server.handleRequest (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\application.js:136:8)
+    at emitTwo (events.js:106:13)
+    at Server.emit (events.js:191:7)
+message: 'a security problem has been detected for url "https://www.alibaba.com/favicon.ico", redirection is prohibited.'
+pid: 7692
+hostname: UC-20170619XOAS
+
+2017-10-21 10:38:26,451 ERROR 8888 [-/-/::1/ea454010-b608-11e7-a882-17d030b08507/8ms GET /favicon.ico] nodejs.InternalServerError: a security problem has been detected for url "https://www.alibaba.com/favicon.ico", redirection is prohibited.
+    at Object.module.exports.throw (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\context.js:89:23)
+    at Object.redirect (E:\My\study\myEgg\node_modules\egg-security\lib\safe_redirect.js:64:34)
+    at Object.proto.(anonymous function) [as redirect] (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\delegates\index.js:40:31)
+    at Object.siteFile (E:\My\study\myEgg\node_modules\_egg@1.9.0@egg\app\middleware\site_file.js:17:50)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.createPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:30:15)
+    at Server.handleRequest (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\application.js:136:8)
+    at emitTwo (events.js:106:13)
+    at Server.emit (events.js:191:7)
+message: 'a security problem has been detected for url "https://www.alibaba.com/favicon.ico", redirection is prohibited.'
+pid: 8888
+hostname: UC-20170619XOAS
+

@@ -24,3 +24,951 @@
 2017-10-18 11:54:26,751 INFO 10712 [egg-security] use xframe middleware
 2017-10-18 11:54:26,751 INFO 10712 [egg-security] compose 6 middlewares into one security middleware
 2017-10-18 11:54:26,898 INFO 10712 [egg-watcher:app] watcher start success
+2017-10-18 16:47:43,463 INFO 24836 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 16:47:43,464 WARN 24836 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 16:47:50,474 INFO 24836 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 16:47:50,475 INFO 24836 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 16:47:50,897 INFO 24836 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 16:47:50,906 INFO 24836 [egg-security] use csrf middleware
+2017-10-18 16:47:50,908 INFO 24836 [egg-security] use methodnoallow middleware
+2017-10-18 16:47:50,909 INFO 24836 [egg-security] use noopen middleware
+2017-10-18 16:47:50,910 INFO 24836 [egg-security] use nosniff middleware
+2017-10-18 16:47:50,911 INFO 24836 [egg-security] use xssProtection middleware
+2017-10-18 16:47:50,912 INFO 24836 [egg-security] use xframe middleware
+2017-10-18 16:47:50,912 INFO 24836 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 16:47:55,009 INFO 24836 [egg-watcher:app] watcher start success
+2017-10-18 16:52:11,618 INFO 25644 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 16:52:11,619 WARN 25644 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 16:52:18,944 INFO 25644 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 16:52:18,944 INFO 25644 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 16:52:19,327 INFO 25644 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 16:52:19,334 INFO 25644 [egg-security] use csrf middleware
+2017-10-18 16:52:19,337 INFO 25644 [egg-security] use methodnoallow middleware
+2017-10-18 16:52:19,339 INFO 25644 [egg-security] use noopen middleware
+2017-10-18 16:52:19,341 INFO 25644 [egg-security] use nosniff middleware
+2017-10-18 16:52:19,343 INFO 25644 [egg-security] use xssProtection middleware
+2017-10-18 16:52:19,344 INFO 25644 [egg-security] use xframe middleware
+2017-10-18 16:52:19,344 INFO 25644 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 16:52:20,705 INFO 25644 [egg-watcher:app] watcher start success
+2017-10-18 16:53:36,837 INFO 13220 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 16:53:36,838 WARN 13220 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 16:53:47,050 INFO 13220 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 16:53:47,051 INFO 13220 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 16:53:47,390 INFO 13220 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 16:53:47,399 INFO 13220 [egg-security] use csrf middleware
+2017-10-18 16:53:47,401 INFO 13220 [egg-security] use methodnoallow middleware
+2017-10-18 16:53:47,402 INFO 13220 [egg-security] use noopen middleware
+2017-10-18 16:53:47,403 INFO 13220 [egg-security] use nosniff middleware
+2017-10-18 16:53:47,403 INFO 13220 [egg-security] use xssProtection middleware
+2017-10-18 16:53:47,404 INFO 13220 [egg-security] use xframe middleware
+2017-10-18 16:53:47,404 INFO 13220 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 16:53:48,687 INFO 13220 [egg-watcher:app] watcher start success
+2017-10-18 16:54:50,697 INFO 10896 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 16:54:50,698 WARN 10896 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 16:55:01,220 INFO 10896 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 16:55:01,222 INFO 10896 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 16:55:01,808 INFO 10896 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 16:55:01,823 INFO 10896 [egg-security] use csrf middleware
+2017-10-18 16:55:01,827 INFO 10896 [egg-security] use methodnoallow middleware
+2017-10-18 16:55:01,828 INFO 10896 [egg-security] use noopen middleware
+2017-10-18 16:55:01,830 INFO 10896 [egg-security] use nosniff middleware
+2017-10-18 16:55:01,831 INFO 10896 [egg-security] use xssProtection middleware
+2017-10-18 16:55:01,832 INFO 10896 [egg-security] use xframe middleware
+2017-10-18 16:55:01,832 INFO 10896 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 16:55:03,300 INFO 10896 [egg-watcher:app] watcher start success
+2017-10-18 16:55:54,055 INFO 28132 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 16:55:54,056 WARN 28132 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 16:56:04,437 INFO 28132 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 16:56:04,438 INFO 28132 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 16:56:04,992 INFO 28132 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 16:56:05,003 INFO 28132 [egg-security] use csrf middleware
+2017-10-18 16:56:05,007 INFO 28132 [egg-security] use methodnoallow middleware
+2017-10-18 16:56:05,008 INFO 28132 [egg-security] use noopen middleware
+2017-10-18 16:56:05,010 INFO 28132 [egg-security] use nosniff middleware
+2017-10-18 16:56:05,011 INFO 28132 [egg-security] use xssProtection middleware
+2017-10-18 16:56:05,012 INFO 28132 [egg-security] use xframe middleware
+2017-10-18 16:56:05,012 INFO 28132 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 16:56:06,931 INFO 28132 [egg-watcher:app] watcher start success
+2017-10-18 17:00:33,955 INFO 25984 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:00:33,956 WARN 25984 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:00:42,243 INFO 25984 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:00:42,243 INFO 25984 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:00:42,709 INFO 25984 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:00:42,719 INFO 25984 [egg-security] use csrf middleware
+2017-10-18 17:00:42,729 INFO 25984 [egg-security] use methodnoallow middleware
+2017-10-18 17:00:42,729 INFO 25984 [egg-security] use noopen middleware
+2017-10-18 17:00:42,729 INFO 25984 [egg-security] use nosniff middleware
+2017-10-18 17:00:42,729 INFO 25984 [egg-security] use xssProtection middleware
+2017-10-18 17:00:42,729 INFO 25984 [egg-security] use xframe middleware
+2017-10-18 17:00:42,729 INFO 25984 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:00:44,359 INFO 25984 [egg-watcher:app] watcher start success
+2017-10-18 17:07:23,631 INFO 25652 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:07:23,633 WARN 25652 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:07:30,899 INFO 25652 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:07:30,899 INFO 25652 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:07:31,245 INFO 25652 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:07:31,252 INFO 25652 [egg-security] use csrf middleware
+2017-10-18 17:07:31,254 INFO 25652 [egg-security] use methodnoallow middleware
+2017-10-18 17:07:31,255 INFO 25652 [egg-security] use noopen middleware
+2017-10-18 17:07:31,256 INFO 25652 [egg-security] use nosniff middleware
+2017-10-18 17:07:31,257 INFO 25652 [egg-security] use xssProtection middleware
+2017-10-18 17:07:31,259 INFO 25652 [egg-security] use xframe middleware
+2017-10-18 17:07:31,259 INFO 25652 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:07:32,647 INFO 25652 [egg-watcher:app] watcher start success
+2017-10-18 17:07:55,552 INFO 9176 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:07:55,553 WARN 9176 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:08:02,294 INFO 9176 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:08:02,295 INFO 9176 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:08:02,661 INFO 9176 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:08:02,668 INFO 9176 [egg-security] use csrf middleware
+2017-10-18 17:08:02,670 INFO 9176 [egg-security] use methodnoallow middleware
+2017-10-18 17:08:02,671 INFO 9176 [egg-security] use noopen middleware
+2017-10-18 17:08:02,672 INFO 9176 [egg-security] use nosniff middleware
+2017-10-18 17:08:02,672 INFO 9176 [egg-security] use xssProtection middleware
+2017-10-18 17:08:02,673 INFO 9176 [egg-security] use xframe middleware
+2017-10-18 17:08:02,673 INFO 9176 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:08:06,450 INFO 9176 [egg-watcher:app] watcher start success
+2017-10-18 17:12:14,862 INFO 23332 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:12:14,864 WARN 23332 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:12:21,990 INFO 23332 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:12:21,990 INFO 23332 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:12:22,410 INFO 23332 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:12:22,416 INFO 23332 [egg-security] use csrf middleware
+2017-10-18 17:12:22,418 INFO 23332 [egg-security] use methodnoallow middleware
+2017-10-18 17:12:22,418 INFO 23332 [egg-security] use noopen middleware
+2017-10-18 17:12:22,419 INFO 23332 [egg-security] use nosniff middleware
+2017-10-18 17:12:22,419 INFO 23332 [egg-security] use xssProtection middleware
+2017-10-18 17:12:22,420 INFO 23332 [egg-security] use xframe middleware
+2017-10-18 17:12:22,420 INFO 23332 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:12:23,836 INFO 23332 [egg-watcher:app] watcher start success
+2017-10-18 17:12:48,142 INFO 8740 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:12:48,143 WARN 8740 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:12:54,124 INFO 8740 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:12:54,124 INFO 8740 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:12:54,472 INFO 8740 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:12:54,480 INFO 8740 [egg-security] use csrf middleware
+2017-10-18 17:12:54,485 INFO 8740 [egg-security] use methodnoallow middleware
+2017-10-18 17:12:54,486 INFO 8740 [egg-security] use noopen middleware
+2017-10-18 17:12:54,487 INFO 8740 [egg-security] use nosniff middleware
+2017-10-18 17:12:54,488 INFO 8740 [egg-security] use xssProtection middleware
+2017-10-18 17:12:54,490 INFO 8740 [egg-security] use xframe middleware
+2017-10-18 17:12:54,490 INFO 8740 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:12:55,811 INFO 8740 [egg-watcher:app] watcher start success
+2017-10-18 17:16:10,866 INFO 9052 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:16:10,867 WARN 9052 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:16:19,728 INFO 9052 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:16:19,728 INFO 9052 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:16:20,114 INFO 9052 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:16:20,124 INFO 9052 [egg-security] use csrf middleware
+2017-10-18 17:16:20,127 INFO 9052 [egg-security] use methodnoallow middleware
+2017-10-18 17:16:20,128 INFO 9052 [egg-security] use noopen middleware
+2017-10-18 17:16:20,129 INFO 9052 [egg-security] use nosniff middleware
+2017-10-18 17:16:20,130 INFO 9052 [egg-security] use xssProtection middleware
+2017-10-18 17:16:20,131 INFO 9052 [egg-security] use xframe middleware
+2017-10-18 17:16:20,132 INFO 9052 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:16:21,443 INFO 9052 [egg-watcher:app] watcher start success
+2017-10-18 17:16:45,875 INFO 13668 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:16:45,880 WARN 13668 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:16:57,854 INFO 13668 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:16:57,854 INFO 13668 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:16:58,272 INFO 13668 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:16:58,282 INFO 13668 [egg-security] use csrf middleware
+2017-10-18 17:16:58,282 INFO 13668 [egg-security] use methodnoallow middleware
+2017-10-18 17:16:58,282 INFO 13668 [egg-security] use noopen middleware
+2017-10-18 17:16:58,282 INFO 13668 [egg-security] use nosniff middleware
+2017-10-18 17:16:58,282 INFO 13668 [egg-security] use xssProtection middleware
+2017-10-18 17:16:58,292 INFO 13668 [egg-security] use xframe middleware
+2017-10-18 17:16:58,292 INFO 13668 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:17:00,037 INFO 13668 [egg-watcher:app] watcher start success
+2017-10-18 17:23:47,124 INFO 6196 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:23:47,126 WARN 6196 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:23:54,354 INFO 6196 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:23:54,354 INFO 6196 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:23:54,699 INFO 6196 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:23:54,707 INFO 6196 [egg-security] use csrf middleware
+2017-10-18 17:23:54,710 INFO 6196 [egg-security] use methodnoallow middleware
+2017-10-18 17:23:54,710 INFO 6196 [egg-security] use noopen middleware
+2017-10-18 17:23:54,711 INFO 6196 [egg-security] use nosniff middleware
+2017-10-18 17:23:54,712 INFO 6196 [egg-security] use xssProtection middleware
+2017-10-18 17:23:54,713 INFO 6196 [egg-security] use xframe middleware
+2017-10-18 17:23:54,713 INFO 6196 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:23:56,056 INFO 6196 [egg-watcher:app] watcher start success
+2017-10-18 17:27:16,121 INFO 24972 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:27:16,123 WARN 24972 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:27:27,676 INFO 24972 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:27:27,676 INFO 24972 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:27:28,083 INFO 24972 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:27:28,095 INFO 24972 [egg-security] use csrf middleware
+2017-10-18 17:27:28,097 INFO 24972 [egg-security] use methodnoallow middleware
+2017-10-18 17:27:28,098 INFO 24972 [egg-security] use noopen middleware
+2017-10-18 17:27:28,099 INFO 24972 [egg-security] use nosniff middleware
+2017-10-18 17:27:28,099 INFO 24972 [egg-security] use xssProtection middleware
+2017-10-18 17:27:28,100 INFO 24972 [egg-security] use xframe middleware
+2017-10-18 17:27:28,100 INFO 24972 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:27:29,624 INFO 24972 [egg-watcher:app] watcher start success
+2017-10-18 17:29:10,885 INFO 29104 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 17:29:10,886 WARN 29104 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 17:29:17,864 INFO 29104 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 17:29:17,864 INFO 29104 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 17:29:18,177 INFO 29104 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 17:29:18,183 INFO 29104 [egg-security] use csrf middleware
+2017-10-18 17:29:18,184 INFO 29104 [egg-security] use methodnoallow middleware
+2017-10-18 17:29:18,185 INFO 29104 [egg-security] use noopen middleware
+2017-10-18 17:29:18,186 INFO 29104 [egg-security] use nosniff middleware
+2017-10-18 17:29:18,186 INFO 29104 [egg-security] use xssProtection middleware
+2017-10-18 17:29:18,187 INFO 29104 [egg-security] use xframe middleware
+2017-10-18 17:29:18,187 INFO 29104 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 17:29:19,467 INFO 29104 [egg-watcher:app] watcher start success
+2017-10-18 18:01:32,408 INFO 8072 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:01:32,410 WARN 8072 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:01:39,479 INFO 8072 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:01:39,479 INFO 8072 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:01:40,167 INFO 8072 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:01:40,206 INFO 8072 [egg-security] use csrf middleware
+2017-10-18 18:01:40,211 INFO 8072 [egg-security] use methodnoallow middleware
+2017-10-18 18:01:40,212 INFO 8072 [egg-security] use noopen middleware
+2017-10-18 18:01:40,213 INFO 8072 [egg-security] use nosniff middleware
+2017-10-18 18:01:40,214 INFO 8072 [egg-security] use xssProtection middleware
+2017-10-18 18:01:40,215 INFO 8072 [egg-security] use xframe middleware
+2017-10-18 18:01:40,215 INFO 8072 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:01:43,275 INFO 8072 [egg-watcher:app] watcher start success
+2017-10-18 18:07:36,491 INFO 11908 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:07:36,493 WARN 11908 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:07:49,713 INFO 11908 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:07:49,713 INFO 11908 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:07:50,216 INFO 11908 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:07:50,227 INFO 11908 [egg-security] use csrf middleware
+2017-10-18 18:07:50,230 INFO 11908 [egg-security] use methodnoallow middleware
+2017-10-18 18:07:50,231 INFO 11908 [egg-security] use noopen middleware
+2017-10-18 18:07:50,232 INFO 11908 [egg-security] use nosniff middleware
+2017-10-18 18:07:50,233 INFO 11908 [egg-security] use xssProtection middleware
+2017-10-18 18:07:50,234 INFO 11908 [egg-security] use xframe middleware
+2017-10-18 18:07:50,234 INFO 11908 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:07:52,266 INFO 11908 [egg-watcher:app] watcher start success
+2017-10-18 18:09:37,975 INFO 18052 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:09:37,977 WARN 18052 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:09:52,954 INFO 18052 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:09:52,955 INFO 18052 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:09:53,528 INFO 18052 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:09:53,539 INFO 18052 [egg-security] use csrf middleware
+2017-10-18 18:09:53,543 INFO 18052 [egg-security] use methodnoallow middleware
+2017-10-18 18:09:53,544 INFO 18052 [egg-security] use noopen middleware
+2017-10-18 18:09:53,545 INFO 18052 [egg-security] use nosniff middleware
+2017-10-18 18:09:53,546 INFO 18052 [egg-security] use xssProtection middleware
+2017-10-18 18:09:53,547 INFO 18052 [egg-security] use xframe middleware
+2017-10-18 18:09:53,547 INFO 18052 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:09:55,661 INFO 18052 [egg-watcher:app] watcher start success
+2017-10-18 18:10:31,135 INFO 17620 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:10:31,137 WARN 17620 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:10:42,484 INFO 17620 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:10:42,484 INFO 17620 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:10:42,968 INFO 17620 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:10:42,979 INFO 17620 [egg-security] use csrf middleware
+2017-10-18 18:10:42,982 INFO 17620 [egg-security] use methodnoallow middleware
+2017-10-18 18:10:42,983 INFO 17620 [egg-security] use noopen middleware
+2017-10-18 18:10:42,984 INFO 17620 [egg-security] use nosniff middleware
+2017-10-18 18:10:42,985 INFO 17620 [egg-security] use xssProtection middleware
+2017-10-18 18:10:42,986 INFO 17620 [egg-security] use xframe middleware
+2017-10-18 18:10:42,986 INFO 17620 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:10:41,914 INFO 26736 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:10:41,919 WARN 26736 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:10:53,244 INFO 26736 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:10:53,244 INFO 26736 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:10:53,688 INFO 26736 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:10:53,710 INFO 26736 [egg-security] use csrf middleware
+2017-10-18 18:10:53,713 INFO 26736 [egg-security] use methodnoallow middleware
+2017-10-18 18:10:53,715 INFO 26736 [egg-security] use noopen middleware
+2017-10-18 18:10:53,716 INFO 26736 [egg-security] use nosniff middleware
+2017-10-18 18:10:53,717 INFO 26736 [egg-security] use xssProtection middleware
+2017-10-18 18:10:53,719 INFO 26736 [egg-security] use xframe middleware
+2017-10-18 18:10:53,719 INFO 26736 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:10:55,505 INFO 26736 [egg-watcher:app] watcher start success
+2017-10-18 18:12:50,788 INFO 27000 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:12:50,791 WARN 27000 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:13:01,693 INFO 27000 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:13:01,694 INFO 27000 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:13:02,022 INFO 27000 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:13:02,030 INFO 27000 [egg-security] use csrf middleware
+2017-10-18 18:13:02,032 INFO 27000 [egg-security] use methodnoallow middleware
+2017-10-18 18:13:02,033 INFO 27000 [egg-security] use noopen middleware
+2017-10-18 18:13:02,034 INFO 27000 [egg-security] use nosniff middleware
+2017-10-18 18:13:02,035 INFO 27000 [egg-security] use xssProtection middleware
+2017-10-18 18:13:02,035 INFO 27000 [egg-security] use xframe middleware
+2017-10-18 18:13:02,036 INFO 27000 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:13:03,344 INFO 27000 [egg-watcher:app] watcher start success
+2017-10-18 18:18:18,189 INFO 5784 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:18:18,191 WARN 5784 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:18:27,858 INFO 5784 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:18:27,858 INFO 5784 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:18:28,212 INFO 5784 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:18:28,223 INFO 5784 [egg-security] use csrf middleware
+2017-10-18 18:18:28,226 INFO 5784 [egg-security] use methodnoallow middleware
+2017-10-18 18:18:28,227 INFO 5784 [egg-security] use noopen middleware
+2017-10-18 18:18:28,228 INFO 5784 [egg-security] use nosniff middleware
+2017-10-18 18:18:28,229 INFO 5784 [egg-security] use xssProtection middleware
+2017-10-18 18:18:28,230 INFO 5784 [egg-security] use xframe middleware
+2017-10-18 18:18:28,230 INFO 5784 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:18:31,910 INFO 5784 [egg-watcher:app] watcher start success
+2017-10-18 18:18:51,149 INFO 16400 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:18:51,151 WARN 16400 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:18:56,612 INFO 16400 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:18:56,612 INFO 16400 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:18:56,928 INFO 16400 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:18:56,934 INFO 16400 [egg-security] use csrf middleware
+2017-10-18 18:18:56,935 INFO 16400 [egg-security] use methodnoallow middleware
+2017-10-18 18:18:56,936 INFO 16400 [egg-security] use noopen middleware
+2017-10-18 18:18:56,936 INFO 16400 [egg-security] use nosniff middleware
+2017-10-18 18:18:56,937 INFO 16400 [egg-security] use xssProtection middleware
+2017-10-18 18:18:56,938 INFO 16400 [egg-security] use xframe middleware
+2017-10-18 18:18:56,938 INFO 16400 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:18:58,096 INFO 16400 [egg-watcher:app] watcher start success
+2017-10-18 18:20:01,029 INFO 29784 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:20:01,032 WARN 29784 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:20:14,282 INFO 29784 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:20:14,284 INFO 29784 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:20:15,595 INFO 29784 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:20:15,629 INFO 29784 [egg-security] use csrf middleware
+2017-10-18 18:20:15,639 INFO 29784 [egg-security] use methodnoallow middleware
+2017-10-18 18:20:15,643 INFO 29784 [egg-security] use noopen middleware
+2017-10-18 18:20:15,646 INFO 29784 [egg-security] use nosniff middleware
+2017-10-18 18:20:15,649 INFO 29784 [egg-security] use xssProtection middleware
+2017-10-18 18:20:15,673 INFO 29784 [egg-security] use xframe middleware
+2017-10-18 18:20:15,674 INFO 29784 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:20:19,251 INFO 29784 [egg-watcher:app] watcher start success
+2017-10-18 18:26:04,834 INFO 8704 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:26:04,835 WARN 8704 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:26:16,212 INFO 8704 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:26:16,214 INFO 8704 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:26:16,972 INFO 8704 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:26:17,022 INFO 8704 [egg-security] use csrf middleware
+2017-10-18 18:26:17,035 INFO 8704 [egg-security] use methodnoallow middleware
+2017-10-18 18:26:17,036 INFO 8704 [egg-security] use noopen middleware
+2017-10-18 18:26:17,036 INFO 8704 [egg-security] use nosniff middleware
+2017-10-18 18:26:17,037 INFO 8704 [egg-security] use xssProtection middleware
+2017-10-18 18:26:17,038 INFO 8704 [egg-security] use xframe middleware
+2017-10-18 18:26:17,038 INFO 8704 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:26:20,350 INFO 8704 [egg-watcher:app] watcher start success
+2017-10-18 18:27:17,349 INFO 23656 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:27:17,350 WARN 23656 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:27:26,748 INFO 23656 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:27:26,748 INFO 23656 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:27:27,086 INFO 23656 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:27:27,094 INFO 23656 [egg-security] use csrf middleware
+2017-10-18 18:27:27,097 INFO 23656 [egg-security] use methodnoallow middleware
+2017-10-18 18:27:27,099 INFO 23656 [egg-security] use noopen middleware
+2017-10-18 18:27:27,100 INFO 23656 [egg-security] use nosniff middleware
+2017-10-18 18:27:27,101 INFO 23656 [egg-security] use xssProtection middleware
+2017-10-18 18:27:27,102 INFO 23656 [egg-security] use xframe middleware
+2017-10-18 18:27:27,102 INFO 23656 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:27:28,405 INFO 23656 [egg-watcher:app] watcher start success
+2017-10-18 18:29:14,366 INFO 16764 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:29:14,368 WARN 16764 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:29:27,929 INFO 16764 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:29:27,929 INFO 16764 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:29:29,326 INFO 16764 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:29:29,382 INFO 16764 [egg-security] use csrf middleware
+2017-10-18 18:29:29,390 INFO 16764 [egg-security] use methodnoallow middleware
+2017-10-18 18:29:29,392 INFO 16764 [egg-security] use noopen middleware
+2017-10-18 18:29:29,393 INFO 16764 [egg-security] use nosniff middleware
+2017-10-18 18:29:29,394 INFO 16764 [egg-security] use xssProtection middleware
+2017-10-18 18:29:29,395 INFO 16764 [egg-security] use xframe middleware
+2017-10-18 18:29:29,395 INFO 16764 [egg-security] compose 6 middlewares into one security middleware
+2017-10-18 18:29:38,242 INFO 16764 [egg-watcher:app] watcher start success
+2017-10-18 18:30:42,873 INFO 7948 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:30:42,874 WARN 7948 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:30:54,162 INFO 7948 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:30:54,162 INFO 7948 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:30:54,897 INFO 7948 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:30:54,901 INFO 7948 [egg-security] use noopen middleware
+2017-10-18 18:30:54,902 INFO 7948 [egg-security] use nosniff middleware
+2017-10-18 18:30:54,902 INFO 7948 [egg-security] use xssProtection middleware
+2017-10-18 18:30:54,903 INFO 7948 [egg-security] use xframe middleware
+2017-10-18 18:30:54,903 INFO 7948 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 18:30:58,332 INFO 7948 [egg-watcher:app] watcher start success
+2017-10-18 18:33:44,927 INFO 27744 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:33:44,929 WARN 27744 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:33:56,367 INFO 27744 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:33:56,367 INFO 27744 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:33:57,195 INFO 27744 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:33:57,207 INFO 27744 [egg-security] use noopen middleware
+2017-10-18 18:33:57,209 INFO 27744 [egg-security] use nosniff middleware
+2017-10-18 18:33:57,210 INFO 27744 [egg-security] use xssProtection middleware
+2017-10-18 18:33:57,211 INFO 27744 [egg-security] use xframe middleware
+2017-10-18 18:33:57,211 INFO 27744 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 18:34:00,602 INFO 27744 [egg-watcher:app] watcher start success
+2017-10-18 18:39:20,614 INFO 12340 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 18:39:20,615 WARN 12340 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 18:39:33,045 INFO 12340 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 18:39:33,046 INFO 12340 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 18:39:35,523 INFO 12340 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 18:39:35,559 INFO 12340 [egg-security] use noopen middleware
+2017-10-18 18:39:35,563 INFO 12340 [egg-security] use nosniff middleware
+2017-10-18 18:39:35,566 INFO 12340 [egg-security] use xssProtection middleware
+2017-10-18 18:39:35,576 INFO 12340 [egg-security] use xframe middleware
+2017-10-18 18:39:35,579 INFO 12340 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 18:39:40,410 INFO 12340 [egg-watcher:app] watcher start success
+2017-10-18 20:21:14,895 INFO 15316 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:21:14,897 WARN 15316 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:21:28,943 INFO 15316 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:21:28,944 INFO 15316 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:21:30,765 INFO 15316 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:21:31,744 INFO 15316 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:21:31,756 INFO 15316 [egg-security] use noopen middleware
+2017-10-18 20:21:31,757 INFO 15316 [egg-security] use nosniff middleware
+2017-10-18 20:21:31,759 INFO 15316 [egg-security] use xssProtection middleware
+2017-10-18 20:21:31,760 INFO 15316 [egg-security] use xframe middleware
+2017-10-18 20:21:31,760 INFO 15316 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:21:35,404 INFO 15316 [egg-mongoose] starting...
+2017-10-18 20:21:35,520 INFO 15316 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:21:35,522 INFO 15316 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:21:35,533 INFO 15316 [egg-watcher:app] watcher start success
+2017-10-18 20:21:32,327 INFO 28460 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:21:32,328 WARN 28460 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:21:43,233 INFO 28460 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:21:43,233 INFO 28460 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:21:43,855 INFO 28460 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:21:44,283 INFO 28460 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:21:44,288 INFO 28460 [egg-security] use noopen middleware
+2017-10-18 20:21:44,289 INFO 28460 [egg-security] use nosniff middleware
+2017-10-18 20:21:44,289 INFO 28460 [egg-security] use xssProtection middleware
+2017-10-18 20:21:44,291 INFO 28460 [egg-security] use xframe middleware
+2017-10-18 20:21:44,291 INFO 28460 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:21:45,711 INFO 28460 [egg-mongoose] starting...
+2017-10-18 20:21:45,807 INFO 28460 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:21:45,809 INFO 28460 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:21:45,814 INFO 28460 [egg-watcher:app] watcher start success
+2017-10-18 20:26:44,599 INFO 19208 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:26:44,600 WARN 19208 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:26:55,499 INFO 19208 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:26:55,499 INFO 19208 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:26:57,029 INFO 19208 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:26:57,695 INFO 19208 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:26:57,700 INFO 19208 [egg-security] use noopen middleware
+2017-10-18 20:26:57,702 INFO 19208 [egg-security] use nosniff middleware
+2017-10-18 20:26:57,703 INFO 19208 [egg-security] use xssProtection middleware
+2017-10-18 20:26:57,704 INFO 19208 [egg-security] use xframe middleware
+2017-10-18 20:26:57,704 INFO 19208 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:27:00,331 INFO 19208 [egg-mongoose] starting...
+2017-10-18 20:27:00,470 INFO 19208 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:27:00,472 INFO 19208 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:27:00,483 INFO 19208 [egg-watcher:app] watcher start success
+2017-10-18 20:28:53,708 INFO 16600 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:28:53,710 WARN 16600 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:29:05,516 INFO 16600 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:29:05,517 INFO 16600 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:29:07,816 INFO 16600 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:29:09,136 INFO 16600 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:29:09,143 INFO 16600 [egg-security] use noopen middleware
+2017-10-18 20:29:09,145 INFO 16600 [egg-security] use nosniff middleware
+2017-10-18 20:29:09,146 INFO 16600 [egg-security] use xssProtection middleware
+2017-10-18 20:29:09,148 INFO 16600 [egg-security] use xframe middleware
+2017-10-18 20:29:09,148 INFO 16600 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:29:10,404 INFO 16600 [egg-mongoose] starting...
+2017-10-18 20:29:10,490 INFO 16600 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:29:10,492 INFO 16600 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:29:10,501 INFO 16600 [egg-watcher:app] watcher start success
+2017-10-18 20:37:18,038 INFO 6636 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:37:18,039 WARN 6636 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:37:24,454 INFO 6636 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:37:24,455 INFO 6636 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:37:25,977 INFO 6636 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:37:26,685 INFO 6636 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:37:26,689 INFO 6636 [egg-security] use noopen middleware
+2017-10-18 20:37:26,690 INFO 6636 [egg-security] use nosniff middleware
+2017-10-18 20:37:26,691 INFO 6636 [egg-security] use xssProtection middleware
+2017-10-18 20:37:26,692 INFO 6636 [egg-security] use xframe middleware
+2017-10-18 20:37:26,692 INFO 6636 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:37:29,707 INFO 6636 [egg-mongoose] starting...
+2017-10-18 20:37:29,780 INFO 6636 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:37:29,787 INFO 6636 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:37:29,795 INFO 6636 [egg-watcher:app] watcher start success
+2017-10-18 20:45:02,848 INFO 23760 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:45:02,849 WARN 23760 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:45:09,655 INFO 23760 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:45:09,655 INFO 23760 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:45:10,215 INFO 23760 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:45:10,560 INFO 23760 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:45:10,565 INFO 23760 [egg-security] use noopen middleware
+2017-10-18 20:45:10,566 INFO 23760 [egg-security] use nosniff middleware
+2017-10-18 20:45:10,566 INFO 23760 [egg-security] use xssProtection middleware
+2017-10-18 20:45:10,567 INFO 23760 [egg-security] use xframe middleware
+2017-10-18 20:45:10,567 INFO 23760 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:45:11,905 INFO 23760 [egg-mongoose] starting...
+2017-10-18 20:45:12,000 INFO 23760 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:45:12,003 INFO 23760 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:45:12,011 INFO 23760 [egg-watcher:app] watcher start success
+2017-10-18 20:49:26,346 INFO 6292 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:49:26,348 WARN 6292 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:49:34,196 INFO 6292 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:49:34,197 INFO 6292 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:49:36,773 INFO 6292 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:49:37,218 INFO 6292 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:49:37,223 INFO 6292 [egg-security] use noopen middleware
+2017-10-18 20:49:37,224 INFO 6292 [egg-security] use nosniff middleware
+2017-10-18 20:49:37,225 INFO 6292 [egg-security] use xssProtection middleware
+2017-10-18 20:49:37,227 INFO 6292 [egg-security] use xframe middleware
+2017-10-18 20:49:37,227 INFO 6292 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:49:38,691 INFO 6292 [egg-mongoose] starting...
+2017-10-18 20:49:38,836 INFO 6292 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:49:38,840 INFO 6292 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:49:38,856 INFO 6292 [egg-watcher:app] watcher start success
+2017-10-18 20:53:10,707 INFO 10676 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:53:10,708 WARN 10676 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:53:16,534 INFO 10676 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:53:16,534 INFO 10676 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:53:17,134 INFO 10676 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:53:17,459 INFO 10676 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:53:17,463 INFO 10676 [egg-security] use noopen middleware
+2017-10-18 20:53:17,463 INFO 10676 [egg-security] use nosniff middleware
+2017-10-18 20:53:17,464 INFO 10676 [egg-security] use xssProtection middleware
+2017-10-18 20:53:17,465 INFO 10676 [egg-security] use xframe middleware
+2017-10-18 20:53:17,465 INFO 10676 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:53:18,585 INFO 10676 [egg-mongoose] starting...
+2017-10-18 20:53:18,648 INFO 10676 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:53:18,650 INFO 10676 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:53:18,662 INFO 10676 [egg-watcher:app] watcher start success
+2017-10-18 20:54:23,966 INFO 7712 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:54:23,968 WARN 7712 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:54:34,398 INFO 7712 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:54:34,398 INFO 7712 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:54:35,016 INFO 7712 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:54:35,499 INFO 7712 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:54:35,502 INFO 7712 [egg-security] use noopen middleware
+2017-10-18 20:54:35,503 INFO 7712 [egg-security] use nosniff middleware
+2017-10-18 20:54:35,504 INFO 7712 [egg-security] use xssProtection middleware
+2017-10-18 20:54:35,505 INFO 7712 [egg-security] use xframe middleware
+2017-10-18 20:54:35,505 INFO 7712 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:54:36,798 INFO 7712 [egg-mongoose] starting...
+2017-10-18 20:54:36,898 INFO 7712 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:54:36,900 INFO 7712 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:54:36,908 INFO 7712 [egg-watcher:app] watcher start success
+2017-10-18 20:55:13,287 INFO 29648 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 20:55:13,288 WARN 29648 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 20:55:25,605 INFO 29648 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 20:55:25,605 INFO 29648 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 20:55:26,448 INFO 29648 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 20:55:27,200 INFO 29648 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 20:55:27,207 INFO 29648 [egg-security] use noopen middleware
+2017-10-18 20:55:27,208 INFO 29648 [egg-security] use nosniff middleware
+2017-10-18 20:55:27,209 INFO 29648 [egg-security] use xssProtection middleware
+2017-10-18 20:55:27,211 INFO 29648 [egg-security] use xframe middleware
+2017-10-18 20:55:27,211 INFO 29648 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 20:55:29,114 INFO 29648 [egg-mongoose] starting...
+2017-10-18 20:55:29,286 INFO 29648 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 20:55:29,289 INFO 29648 [egg-mongoose] start successfully and server status is ok
+2017-10-18 20:55:29,296 INFO 29648 [egg-watcher:app] watcher start success
+2017-10-18 21:01:44,073 INFO 16504 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 21:01:44,074 WARN 16504 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 21:01:53,590 INFO 16504 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 21:01:53,591 INFO 16504 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 21:01:53,965 INFO 16504 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 21:01:53,970 INFO 16504 [egg-security] use noopen middleware
+2017-10-18 21:01:53,970 INFO 16504 [egg-security] use nosniff middleware
+2017-10-18 21:01:53,971 INFO 16504 [egg-security] use xssProtection middleware
+2017-10-18 21:01:53,972 INFO 16504 [egg-security] use xframe middleware
+2017-10-18 21:01:53,972 INFO 16504 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 21:01:55,247 INFO 16504 [egg-watcher:app] watcher start success
+2017-10-18 21:03:20,174 INFO 6004 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 21:03:20,176 WARN 6004 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 21:03:30,731 INFO 6004 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 21:03:30,732 INFO 6004 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 21:03:32,832 INFO 6004 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 21:03:32,863 INFO 6004 [egg-security] use noopen middleware
+2017-10-18 21:03:32,867 INFO 6004 [egg-security] use nosniff middleware
+2017-10-18 21:03:32,872 INFO 6004 [egg-security] use xssProtection middleware
+2017-10-18 21:03:32,877 INFO 6004 [egg-security] use xframe middleware
+2017-10-18 21:03:32,877 INFO 6004 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 21:03:35,129 INFO 6004 [egg-watcher:app] watcher start success
+2017-10-18 21:03:56,599 INFO 30228 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 21:03:56,601 WARN 30228 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 21:04:02,132 INFO 30228 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 21:04:02,133 INFO 30228 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 21:04:02,450 INFO 30228 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 21:04:02,454 INFO 30228 [egg-security] use noopen middleware
+2017-10-18 21:04:02,455 INFO 30228 [egg-security] use nosniff middleware
+2017-10-18 21:04:02,457 INFO 30228 [egg-security] use xssProtection middleware
+2017-10-18 21:04:02,458 INFO 30228 [egg-security] use xframe middleware
+2017-10-18 21:04:02,458 INFO 30228 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 21:04:03,816 INFO 30228 [egg-watcher:app] watcher start success
+2017-10-18 21:21:30,808 INFO 15388 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 21:21:30,810 WARN 15388 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 21:21:41,407 INFO 15388 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 21:21:41,407 INFO 15388 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 21:21:42,153 INFO 15388 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 21:21:42,573 INFO 15388 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 21:21:42,583 INFO 15388 [egg-security] use noopen middleware
+2017-10-18 21:21:42,584 INFO 15388 [egg-security] use nosniff middleware
+2017-10-18 21:21:42,585 INFO 15388 [egg-security] use xssProtection middleware
+2017-10-18 21:21:42,586 INFO 15388 [egg-security] use xframe middleware
+2017-10-18 21:21:42,586 INFO 15388 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 21:21:44,195 INFO 15388 [egg-mongoose] starting...
+2017-10-18 21:21:44,306 INFO 15388 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 21:21:44,308 INFO 15388 [egg-mongoose] start successfully and server status is ok
+2017-10-18 21:21:44,315 INFO 15388 [egg-watcher:app] watcher start success
+2017-10-18 21:27:39,649 INFO 14688 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-18 21:27:39,650 WARN 14688 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-18 21:27:50,969 INFO 14688 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-18 21:27:50,969 INFO 14688 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-18 21:27:51,487 INFO 14688 [egg-mongoose] connecting mongodb://127.0.0.1:27017/example
+2017-10-18 21:27:51,804 INFO 14688 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-18 21:27:51,810 INFO 14688 [egg-security] use noopen middleware
+2017-10-18 21:27:51,811 INFO 14688 [egg-security] use nosniff middleware
+2017-10-18 21:27:51,812 INFO 14688 [egg-security] use xssProtection middleware
+2017-10-18 21:27:51,813 INFO 14688 [egg-security] use xframe middleware
+2017-10-18 21:27:51,813 INFO 14688 [egg-security] compose 4 middlewares into one security middleware
+2017-10-18 21:27:52,890 INFO 14688 [egg-mongoose] starting...
+2017-10-18 21:27:53,030 INFO 14688 [egg-mongoose] mongodb://127.0.0.1:27017/example connected successfully
+2017-10-18 21:27:53,033 INFO 14688 [egg-mongoose] start successfully and server status is ok
+2017-10-18 21:27:53,055 INFO 14688 [egg-watcher:app] watcher start success
+2017-10-19 13:42:36,942 INFO 13556 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 13:42:36,943 WARN 13556 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 13:42:44,006 INFO 13556 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 13:42:44,007 INFO 13556 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 13:42:44,392 INFO 13556 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 13:42:44,396 INFO 13556 [egg-security] use noopen middleware
+2017-10-19 13:42:44,398 INFO 13556 [egg-security] use nosniff middleware
+2017-10-19 13:42:44,398 INFO 13556 [egg-security] use xssProtection middleware
+2017-10-19 13:42:44,399 INFO 13556 [egg-security] use xframe middleware
+2017-10-19 13:42:44,399 INFO 13556 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 13:42:46,043 INFO 13556 [egg-watcher:app] watcher start success
+2017-10-19 13:57:24,635 INFO 21320 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 13:57:24,636 WARN 21320 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 13:57:31,166 INFO 21320 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 13:57:31,166 INFO 21320 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 13:57:31,515 INFO 21320 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 13:57:31,519 INFO 21320 [egg-security] use noopen middleware
+2017-10-19 13:57:31,519 INFO 21320 [egg-security] use nosniff middleware
+2017-10-19 13:57:31,520 INFO 21320 [egg-security] use xssProtection middleware
+2017-10-19 13:57:31,521 INFO 21320 [egg-security] use xframe middleware
+2017-10-19 13:57:31,522 INFO 21320 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 13:57:32,800 INFO 21320 [egg-watcher:app] watcher start success
+2017-10-19 14:00:21,887 INFO 18768 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 14:00:21,888 WARN 18768 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 14:00:29,504 INFO 18768 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 14:00:29,504 INFO 18768 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 14:00:29,870 INFO 18768 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 14:00:29,873 INFO 18768 [egg-security] use noopen middleware
+2017-10-19 14:00:29,873 INFO 18768 [egg-security] use nosniff middleware
+2017-10-19 14:00:29,874 INFO 18768 [egg-security] use xssProtection middleware
+2017-10-19 14:00:29,875 INFO 18768 [egg-security] use xframe middleware
+2017-10-19 14:00:29,875 INFO 18768 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 14:00:31,243 INFO 18768 [egg-watcher:app] watcher start success
+2017-10-19 14:01:02,831 INFO 20568 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 14:01:02,832 WARN 20568 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 14:01:09,562 INFO 20568 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 14:01:09,562 INFO 20568 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 14:01:09,973 INFO 20568 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 14:01:09,979 INFO 20568 [egg-security] use noopen middleware
+2017-10-19 14:01:09,980 INFO 20568 [egg-security] use nosniff middleware
+2017-10-19 14:01:09,981 INFO 20568 [egg-security] use xssProtection middleware
+2017-10-19 14:01:09,982 INFO 20568 [egg-security] use xframe middleware
+2017-10-19 14:01:09,982 INFO 20568 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 14:01:11,536 INFO 20568 [egg-watcher:app] watcher start success
+2017-10-19 14:01:37,075 INFO 20616 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 14:01:37,077 WARN 20616 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 14:01:47,311 INFO 20616 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 14:01:47,312 INFO 20616 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 14:01:47,728 INFO 20616 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 14:01:47,733 INFO 20616 [egg-security] use noopen middleware
+2017-10-19 14:01:47,734 INFO 20616 [egg-security] use nosniff middleware
+2017-10-19 14:01:47,734 INFO 20616 [egg-security] use xssProtection middleware
+2017-10-19 14:01:47,735 INFO 20616 [egg-security] use xframe middleware
+2017-10-19 14:01:47,735 INFO 20616 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 14:01:49,256 INFO 20616 [egg-watcher:app] watcher start success
+2017-10-19 14:09:53,484 INFO 21756 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 14:09:53,485 WARN 21756 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 14:10:04,575 INFO 21756 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 14:10:04,576 INFO 21756 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 14:10:05,153 INFO 21756 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 14:10:05,162 INFO 21756 [egg-security] use noopen middleware
+2017-10-19 14:10:05,163 INFO 21756 [egg-security] use nosniff middleware
+2017-10-19 14:10:05,165 INFO 21756 [egg-security] use xssProtection middleware
+2017-10-19 14:10:05,167 INFO 21756 [egg-security] use xframe middleware
+2017-10-19 14:10:05,167 INFO 21756 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 14:10:07,063 INFO 21756 [egg-watcher:app] watcher start success
+2017-10-19 14:10:06,250 INFO 22160 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 14:10:06,252 WARN 22160 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 14:10:16,417 INFO 22160 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 14:10:16,418 INFO 22160 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 14:10:16,932 INFO 22160 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 14:10:16,944 INFO 22160 [egg-security] use noopen middleware
+2017-10-19 14:10:16,946 INFO 22160 [egg-security] use nosniff middleware
+2017-10-19 14:10:16,947 INFO 22160 [egg-security] use xssProtection middleware
+2017-10-19 14:10:16,948 INFO 22160 [egg-security] use xframe middleware
+2017-10-19 14:10:16,948 INFO 22160 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 14:10:18,579 INFO 22160 [egg-watcher:app] watcher start success
+2017-10-19 14:14:25,693 INFO 20400 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 14:14:25,694 WARN 20400 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 14:14:35,343 INFO 20400 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 14:14:35,343 INFO 20400 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 14:14:35,709 INFO 20400 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 14:14:35,712 INFO 20400 [egg-security] use noopen middleware
+2017-10-19 14:14:35,713 INFO 20400 [egg-security] use nosniff middleware
+2017-10-19 14:14:35,715 INFO 20400 [egg-security] use xssProtection middleware
+2017-10-19 14:14:35,716 INFO 20400 [egg-security] use xframe middleware
+2017-10-19 14:14:35,716 INFO 20400 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 14:14:37,131 INFO 20400 [egg-watcher:app] watcher start success
+2017-10-19 15:59:47,947 INFO 19284 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 15:59:47,948 WARN 19284 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 15:59:53,077 INFO 19284 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 15:59:53,078 INFO 19284 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 15:59:53,391 INFO 19284 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 15:59:53,395 INFO 19284 [egg-security] use noopen middleware
+2017-10-19 15:59:53,396 INFO 19284 [egg-security] use nosniff middleware
+2017-10-19 15:59:53,397 INFO 19284 [egg-security] use xssProtection middleware
+2017-10-19 15:59:53,398 INFO 19284 [egg-security] use xframe middleware
+2017-10-19 15:59:53,398 INFO 19284 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 15:59:57,278 INFO 19284 [egg-watcher:app] watcher start success
+2017-10-19 16:00:59,152 INFO 10724 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:00:59,153 WARN 10724 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:01:07,896 INFO 10724 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:01:07,898 INFO 10724 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:01:08,271 INFO 10724 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:01:08,278 INFO 10724 [egg-security] use noopen middleware
+2017-10-19 16:01:08,279 INFO 10724 [egg-security] use nosniff middleware
+2017-10-19 16:01:08,280 INFO 10724 [egg-security] use xssProtection middleware
+2017-10-19 16:01:08,282 INFO 10724 [egg-security] use xframe middleware
+2017-10-19 16:01:08,283 INFO 10724 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:01:09,659 INFO 10724 [egg-watcher:app] watcher start success
+2017-10-19 16:02:48,950 INFO 15384 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:02:48,951 WARN 15384 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:02:55,518 INFO 15384 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:02:55,519 INFO 15384 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:02:55,886 INFO 15384 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:02:55,890 INFO 15384 [egg-security] use noopen middleware
+2017-10-19 16:02:55,891 INFO 15384 [egg-security] use nosniff middleware
+2017-10-19 16:02:55,892 INFO 15384 [egg-security] use xssProtection middleware
+2017-10-19 16:02:55,893 INFO 15384 [egg-security] use xframe middleware
+2017-10-19 16:02:55,893 INFO 15384 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:02:57,206 INFO 15384 [egg-watcher:app] watcher start success
+2017-10-19 16:06:02,744 INFO 12996 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:06:02,746 WARN 12996 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:06:09,060 INFO 12996 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:06:09,061 INFO 12996 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:06:09,367 INFO 12996 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:06:09,373 INFO 12996 [egg-security] use noopen middleware
+2017-10-19 16:06:09,373 INFO 12996 [egg-security] use nosniff middleware
+2017-10-19 16:06:09,374 INFO 12996 [egg-security] use xssProtection middleware
+2017-10-19 16:06:09,374 INFO 12996 [egg-security] use xframe middleware
+2017-10-19 16:06:09,374 INFO 12996 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:06:10,609 INFO 12996 [egg-watcher:app] watcher start success
+2017-10-19 16:10:24,277 INFO 11536 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:10:24,278 WARN 11536 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:10:30,420 INFO 11536 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:10:30,420 INFO 11536 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:10:30,722 INFO 11536 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:10:30,725 INFO 11536 [egg-security] use noopen middleware
+2017-10-19 16:10:30,726 INFO 11536 [egg-security] use nosniff middleware
+2017-10-19 16:10:30,727 INFO 11536 [egg-security] use xssProtection middleware
+2017-10-19 16:10:30,727 INFO 11536 [egg-security] use xframe middleware
+2017-10-19 16:10:30,727 INFO 11536 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:10:31,907 INFO 11536 [egg-watcher:app] watcher start success
+2017-10-19 16:11:42,497 INFO 13628 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:11:42,500 WARN 13628 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:11:52,510 INFO 13628 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:11:52,510 INFO 13628 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:11:52,973 INFO 13628 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:11:52,979 INFO 13628 [egg-security] use noopen middleware
+2017-10-19 16:11:52,980 INFO 13628 [egg-security] use nosniff middleware
+2017-10-19 16:11:52,982 INFO 13628 [egg-security] use xssProtection middleware
+2017-10-19 16:11:52,984 INFO 13628 [egg-security] use xframe middleware
+2017-10-19 16:11:52,984 INFO 13628 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:11:54,456 INFO 13628 [egg-watcher:app] watcher start success
+2017-10-19 16:12:53,030 INFO 15388 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:12:53,031 WARN 15388 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:13:06,134 INFO 15388 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:13:06,136 INFO 15388 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:13:06,712 INFO 15388 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:13:06,718 INFO 15388 [egg-security] use noopen middleware
+2017-10-19 16:13:06,719 INFO 15388 [egg-security] use nosniff middleware
+2017-10-19 16:13:06,720 INFO 15388 [egg-security] use xssProtection middleware
+2017-10-19 16:13:06,721 INFO 15388 [egg-security] use xframe middleware
+2017-10-19 16:13:06,721 INFO 15388 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:13:08,588 INFO 15388 [egg-watcher:app] watcher start success
+2017-10-19 16:13:34,170 INFO 13000 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:13:34,171 WARN 13000 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:13:40,415 INFO 13000 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:13:40,415 INFO 13000 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:13:40,765 INFO 13000 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:13:40,770 INFO 13000 [egg-security] use noopen middleware
+2017-10-19 16:13:40,771 INFO 13000 [egg-security] use nosniff middleware
+2017-10-19 16:13:40,771 INFO 13000 [egg-security] use xssProtection middleware
+2017-10-19 16:13:40,772 INFO 13000 [egg-security] use xframe middleware
+2017-10-19 16:13:40,772 INFO 13000 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:13:42,147 INFO 13000 [egg-watcher:app] watcher start success
+2017-10-19 16:16:23,737 INFO 18632 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:16:23,738 WARN 18632 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:16:29,971 INFO 18632 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:16:29,971 INFO 18632 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:16:30,262 INFO 18632 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:16:30,266 INFO 18632 [egg-security] use noopen middleware
+2017-10-19 16:16:30,266 INFO 18632 [egg-security] use nosniff middleware
+2017-10-19 16:16:30,267 INFO 18632 [egg-security] use xssProtection middleware
+2017-10-19 16:16:30,268 INFO 18632 [egg-security] use xframe middleware
+2017-10-19 16:16:30,268 INFO 18632 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:16:31,455 INFO 18632 [egg-watcher:app] watcher start success
+2017-10-19 16:20:23,157 INFO 24320 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:20:23,158 WARN 24320 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:20:30,210 INFO 24320 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:20:30,210 INFO 24320 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:20:30,554 INFO 24320 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:20:30,558 INFO 24320 [egg-security] use noopen middleware
+2017-10-19 16:20:30,558 INFO 24320 [egg-security] use nosniff middleware
+2017-10-19 16:20:30,559 INFO 24320 [egg-security] use xssProtection middleware
+2017-10-19 16:20:30,559 INFO 24320 [egg-security] use xframe middleware
+2017-10-19 16:20:30,559 INFO 24320 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:20:31,726 INFO 24320 [egg-watcher:app] watcher start success
+2017-10-19 16:21:20,586 INFO 19308 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:21:20,587 WARN 19308 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:21:27,119 INFO 19308 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:21:27,119 INFO 19308 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:21:27,434 INFO 19308 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:21:27,438 INFO 19308 [egg-security] use noopen middleware
+2017-10-19 16:21:27,439 INFO 19308 [egg-security] use nosniff middleware
+2017-10-19 16:21:27,440 INFO 19308 [egg-security] use xssProtection middleware
+2017-10-19 16:21:27,440 INFO 19308 [egg-security] use xframe middleware
+2017-10-19 16:21:27,440 INFO 19308 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:21:28,660 INFO 19308 [egg-watcher:app] watcher start success
+2017-10-19 16:25:35,405 INFO 14468 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:25:35,406 WARN 14468 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:25:41,866 INFO 14468 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:25:41,866 INFO 14468 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:25:42,192 INFO 14468 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:25:42,195 INFO 14468 [egg-security] use noopen middleware
+2017-10-19 16:25:42,196 INFO 14468 [egg-security] use nosniff middleware
+2017-10-19 16:25:42,197 INFO 14468 [egg-security] use xssProtection middleware
+2017-10-19 16:25:42,197 INFO 14468 [egg-security] use xframe middleware
+2017-10-19 16:25:42,197 INFO 14468 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:25:43,391 INFO 14468 [egg-watcher:app] watcher start success
+2017-10-19 16:30:18,907 INFO 24044 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-19 16:30:18,909 WARN 24044 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-19 16:30:30,756 INFO 24044 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-19 16:30:30,756 INFO 24044 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-19 16:30:31,385 INFO 24044 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-19 16:30:31,392 INFO 24044 [egg-security] use noopen middleware
+2017-10-19 16:30:31,393 INFO 24044 [egg-security] use nosniff middleware
+2017-10-19 16:30:31,395 INFO 24044 [egg-security] use xssProtection middleware
+2017-10-19 16:30:31,396 INFO 24044 [egg-security] use xframe middleware
+2017-10-19 16:30:31,396 INFO 24044 [egg-security] compose 4 middlewares into one security middleware
+2017-10-19 16:30:33,444 INFO 24044 [egg-watcher:app] watcher start success
+2017-10-21 10:30:55,562 INFO 3716 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:30:55,563 WARN 3716 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:31:00,354 INFO 3716 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:31:00,355 INFO 3716 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:31:00,936 INFO 3716 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:31:00,940 INFO 3716 [egg-security] use noopen middleware
+2017-10-21 10:31:00,940 INFO 3716 [egg-security] use nosniff middleware
+2017-10-21 10:31:00,941 INFO 3716 [egg-security] use xssProtection middleware
+2017-10-21 10:31:00,941 INFO 3716 [egg-security] use xframe middleware
+2017-10-21 10:31:00,941 INFO 3716 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:31:01,969 INFO 3716 [egg-watcher:app] watcher start success
+2017-10-21 10:33:26,990 INFO 7692 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:33:26,991 WARN 7692 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:33:32,721 INFO 7692 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:33:32,721 INFO 7692 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:33:32,990 INFO 7692 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:33:32,993 INFO 7692 [egg-security] use noopen middleware
+2017-10-21 10:33:32,993 INFO 7692 [egg-security] use nosniff middleware
+2017-10-21 10:33:32,994 INFO 7692 [egg-security] use xssProtection middleware
+2017-10-21 10:33:32,995 INFO 7692 [egg-security] use xframe middleware
+2017-10-21 10:33:32,995 INFO 7692 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:33:34,386 INFO 7692 [egg-watcher:app] watcher start success
+2017-10-21 10:35:31,592 INFO 3920 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:35:31,593 WARN 3920 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:35:38,323 INFO 3920 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:35:38,323 INFO 3920 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:35:38,674 INFO 3920 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:35:38,677 INFO 3920 [egg-security] use noopen middleware
+2017-10-21 10:35:38,678 INFO 3920 [egg-security] use nosniff middleware
+2017-10-21 10:35:38,679 INFO 3920 [egg-security] use xssProtection middleware
+2017-10-21 10:35:38,679 INFO 3920 [egg-security] use xframe middleware
+2017-10-21 10:35:38,679 INFO 3920 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:35:39,811 INFO 3920 [egg-watcher:app] watcher start success
+2017-10-21 10:36:19,480 INFO 6004 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:36:19,480 WARN 6004 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:36:25,570 INFO 6004 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:36:25,570 INFO 6004 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:36:25,918 INFO 6004 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:36:25,921 INFO 6004 [egg-security] use noopen middleware
+2017-10-21 10:36:25,922 INFO 6004 [egg-security] use nosniff middleware
+2017-10-21 10:36:25,923 INFO 6004 [egg-security] use xssProtection middleware
+2017-10-21 10:36:25,923 INFO 6004 [egg-security] use xframe middleware
+2017-10-21 10:36:25,924 INFO 6004 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:36:27,157 INFO 6004 [egg-watcher:app] watcher start success
+2017-10-21 10:38:06,561 INFO 8888 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:38:06,562 WARN 8888 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:38:12,472 INFO 8888 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:38:12,473 INFO 8888 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:38:12,801 INFO 8888 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:38:12,804 INFO 8888 [egg-security] use noopen middleware
+2017-10-21 10:38:12,805 INFO 8888 [egg-security] use nosniff middleware
+2017-10-21 10:38:12,806 INFO 8888 [egg-security] use xssProtection middleware
+2017-10-21 10:38:12,807 INFO 8888 [egg-security] use xframe middleware
+2017-10-21 10:38:12,807 INFO 8888 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:38:14,034 INFO 8888 [egg-watcher:app] watcher start success
+2017-10-21 10:48:05,146 INFO 2312 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:48:05,147 WARN 2312 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:48:11,456 INFO 2312 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:48:11,457 INFO 2312 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:48:11,819 INFO 2312 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:48:11,823 INFO 2312 [egg-security] use noopen middleware
+2017-10-21 10:48:11,824 INFO 2312 [egg-security] use nosniff middleware
+2017-10-21 10:48:11,825 INFO 2312 [egg-security] use xssProtection middleware
+2017-10-21 10:48:11,826 INFO 2312 [egg-security] use xframe middleware
+2017-10-21 10:48:11,826 INFO 2312 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:48:13,078 INFO 2312 [egg-watcher:app] watcher start success
+2017-10-21 10:48:31,005 INFO 10028 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:48:31,006 WARN 10028 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:48:35,648 INFO 10028 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:48:35,649 INFO 10028 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:48:35,944 INFO 10028 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:48:35,947 INFO 10028 [egg-security] use noopen middleware
+2017-10-21 10:48:35,948 INFO 10028 [egg-security] use nosniff middleware
+2017-10-21 10:48:35,949 INFO 10028 [egg-security] use xssProtection middleware
+2017-10-21 10:48:35,949 INFO 10028 [egg-security] use xframe middleware
+2017-10-21 10:48:35,949 INFO 10028 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:48:36,930 INFO 10028 [egg-watcher:app] watcher start success
+2017-10-21 10:53:49,519 INFO 6964 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:53:49,523 WARN 6964 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:53:57,807 INFO 6964 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:53:57,807 INFO 6964 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:53:58,115 INFO 6964 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:53:58,120 INFO 6964 [egg-security] use noopen middleware
+2017-10-21 10:53:58,120 INFO 6964 [egg-security] use nosniff middleware
+2017-10-21 10:53:58,121 INFO 6964 [egg-security] use xssProtection middleware
+2017-10-21 10:53:58,121 INFO 6964 [egg-security] use xframe middleware
+2017-10-21 10:53:58,122 INFO 6964 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:53:59,229 INFO 6964 [egg-watcher:app] watcher start success
+2017-10-21 10:57:27,132 INFO 9796 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:57:27,133 WARN 9796 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:57:33,444 INFO 9796 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:57:33,444 INFO 9796 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:57:33,790 INFO 9796 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:57:33,794 INFO 9796 [egg-security] use noopen middleware
+2017-10-21 10:57:33,794 INFO 9796 [egg-security] use nosniff middleware
+2017-10-21 10:57:33,795 INFO 9796 [egg-security] use xssProtection middleware
+2017-10-21 10:57:33,796 INFO 9796 [egg-security] use xframe middleware
+2017-10-21 10:57:33,796 INFO 9796 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:57:34,965 INFO 9796 [egg-watcher:app] watcher start success
+2017-10-21 10:58:18,065 INFO 7108 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 10:58:18,067 WARN 7108 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 10:58:24,182 INFO 7108 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 10:58:24,183 INFO 7108 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 10:58:24,498 INFO 7108 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 10:58:24,502 INFO 7108 [egg-security] use noopen middleware
+2017-10-21 10:58:24,503 INFO 7108 [egg-security] use nosniff middleware
+2017-10-21 10:58:24,503 INFO 7108 [egg-security] use xssProtection middleware
+2017-10-21 10:58:24,504 INFO 7108 [egg-security] use xframe middleware
+2017-10-21 10:58:24,504 INFO 7108 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 10:58:25,580 INFO 7108 [egg-watcher:app] watcher start success
+2017-10-21 11:01:31,725 INFO 8628 [egg:logger] init all loggers with options: {"dir":"E:\\My\\study\\myEgg\\private\\log","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"myserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-21 11:01:31,726 WARN 8628 [nut] UAE config not found: E:\My\study\myEgg\conf\config.json
+2017-10-21 11:01:37,475 INFO 8628 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2017-10-21 11:01:37,475 INFO 8628 [egg-schedule]: register schedule egg-schedule:E:\My\study\myEgg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2017-10-21 11:01:37,769 INFO 8628 [egg-static] starting static serve /public/ -> E:\My\study\myEgg\app\public
+2017-10-21 11:01:37,772 INFO 8628 [egg-security] use noopen middleware
+2017-10-21 11:01:37,773 INFO 8628 [egg-security] use nosniff middleware
+2017-10-21 11:01:37,773 INFO 8628 [egg-security] use xssProtection middleware
+2017-10-21 11:01:37,774 INFO 8628 [egg-security] use xframe middleware
+2017-10-21 11:01:37,774 INFO 8628 [egg-security] compose 4 middlewares into one security middleware
+2017-10-21 11:01:38,830 INFO 8628 [egg-watcher:app] watcher start success

@@ -1,5 +1,283 @@
-2017-10-18 11:53:04,981 INFO 9600 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
-2017-10-18 11:53:04,982 INFO 9600 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
-2017-10-18 11:54:26,793 INFO 10712 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
-2017-10-18 11:54:26,794 INFO 10712 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
-2017-10-18 11:55:08,747 INFO 10712 [-/-/127.0.0.1/2236f1b0-b3b8-11e7-aca1-83dbf6755e2a/21ms GET /] status 200 (rt: 10ms)
+2017-10-18 17:23:55,964 INFO 6196 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 17:23:55,965 INFO 6196 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 17:27:15,307 INFO 6196 [-/-/::1/875e8ca0-b3e6-11e7-9996-c542e73a3be3/348ms GET /api/watermarker/data/list] status 200 (rt: 346ms)
+2017-10-18 17:27:20,116 INFO 6196 [-/-/::1/8a3c7f40-b3e6-11e7-9996-c542e73a3be3/263ms GET /api/watermarker/data/list] status 200 (rt: 261ms)
+2017-10-18 17:27:29,521 INFO 24972 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 17:27:29,523 INFO 24972 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 17:27:57,244 INFO 24972 [-/-/::1/a05d79a0-b3e6-11e7-b6c0-556a7953cc2c/197ms GET /api/watermarker/data/list] status 200 (rt: 195ms)
+2017-10-18 17:29:19,390 INFO 29104 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 17:29:19,391 INFO 29104 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 17:30:13,448 WARN 29104 [-/-/::1/f187ac60-b3e6-11e7-b603-7b547b141e7d/22ms GET /api/watermarker/data/list] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.module.exports.throw (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\context.js:89:23)
+    at Object.validate (E:\My\study\myEgg\node_modules\_egg-validate@1.0.0@egg-validate\app\extend\context.js:14:17)
+    at ListData.getListData (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:12:7)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'offset', code: 'missing_field' }, { message: 'required', field: 'pageSize', code: 'missing_field' } ]
+pid: 29104
+hostname: UC-20170619XOAS
+
+2017-10-18 17:31:00,090 WARN 29104 [-/-/::1/0d59b690-b3e7-11e7-b603-7b547b141e7d/3ms GET /api/watermarker/data/list] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.module.exports.throw (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\context.js:89:23)
+    at Object.validate (E:\My\study\myEgg\node_modules\_egg-validate@1.0.0@egg-validate\app\extend\context.js:14:17)
+    at ListData.getListData (E:\My\study\myEgg\app\controller\api\watermarker\data\list.js:12:7)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'offset', code: 'missing_field' }, { message: 'required', field: 'pageSize', code: 'missing_field' } ]
+pid: 29104
+hostname: UC-20170619XOAS
+
+2017-10-18 18:01:43,200 INFO 8072 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:01:43,202 INFO 8072 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:03:30,606 INFO 8072 [-/-/::1/97f2d5d0-b3eb-11e7-beeb-211a07f0e412/645ms GET /api/watermarker/data/list] status 200 (rt: 644ms)
+2017-10-18 18:07:52,094 INFO 11908 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:07:52,100 INFO 11908 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:09:55,481 INFO 18052 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:09:55,487 INFO 18052 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:10:44,708 INFO 17620 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:10:44,711 INFO 17620 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:10:55,405 INFO 26736 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:10:55,406 INFO 26736 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:13:03,284 INFO 27000 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:13:03,286 INFO 27000 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:18:31,771 INFO 5784 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:18:31,777 INFO 5784 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:18:58,020 INFO 16400 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:18:58,022 INFO 16400 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:20:19,133 INFO 29784 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:20:19,134 INFO 29784 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:21:52,286 WARN 29784 [-/-/127.0.0.1/2899dcd0-b3ee-11e7-aa03-8ff520fdc6ed/22ms POST /api/watermarker/data/creation] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-10-18 18:21:52,290 WARN 29784 [-/-/127.0.0.1/2899dcd0-b3ee-11e7-aa03-8ff520fdc6ed/26ms POST /api/watermarker/data/creation] nodejs.ForbiddenError: missing csrf token
+    at Object.module.exports.throw (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\context.js:89:23)
+    at Object.assertCsrf (E:\My\study\myEgg\node_modules\egg-security\app\extend\context.js:139:17)
+    at Object.csrf (E:\My\study\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:31:10)
+    at next (native)
+    at Object.<anonymous> (E:\My\study\myEgg\node_modules\koa-compose\index.js:28:19)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+message: 'missing csrf token'
+pid: 29784
+hostname: UC-20170619XOAS
+
+2017-10-18 18:23:27,648 INFO 29784 [-/-/::1/61711a00-b3ee-11e7-aa03-8ff520fdc6ed/809ms GET /api/watermarker/data/list] status 200 (rt: 809ms)
+2017-10-18 18:26:20,249 INFO 8704 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:26:20,250 INFO 8704 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:27:05,963 INFO 15548 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:27:05,965 INFO 15548 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:27:28,329 INFO 23656 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:27:28,331 INFO 23656 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:28:01,045 WARN 23656 [-/-/127.0.0.1/04660540-b3ef-11e7-ba0f-45c373fc20fd/242ms POST /api/watermarker/data/creation] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-10-18 18:28:01,049 WARN 23656 [-/-/127.0.0.1/04660540-b3ef-11e7-ba0f-45c373fc20fd/246ms POST /api/watermarker/data/creation] nodejs.ForbiddenError: invalid csrf token
+    at Object.module.exports.throw (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\lib\context.js:89:23)
+    at Object.assertCsrf (E:\My\study\myEgg\node_modules\egg-security\app\extend\context.js:148:17)
+    at Object.csrf (E:\My\study\myEgg\node_modules\egg-security\lib\middlewares\csrf.js:31:10)
+    at next (native)
+    at Object.<anonymous> (E:\My\study\myEgg\node_modules\koa-compose\index.js:28:19)
+    at next (native)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:65:19)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+    at E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (E:\My\study\myEgg\node_modules\@ali\nut\node_modules\@ali\egg\node_modules\egg\node_modules\egg-core\node_modules\koa\node_modules\co\index.js:69:7)
+message: 'invalid csrf token'
+pid: 23656
+hostname: UC-20170619XOAS
+
+2017-10-18 18:29:38,122 INFO 16764 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:29:38,124 INFO 16764 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:30:58,236 INFO 7948 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:30:58,237 INFO 7948 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:31:49,355 INFO 7948 [-/-/127.0.0.1/8c7b3590-b3ef-11e7-b450-f1759e5129ba/214ms POST /api/watermarker/data/creation] status 404 (rt: 212ms)
+2017-10-18 18:34:00,531 INFO 27744 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:34:00,533 INFO 27744 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 18:34:14,288 INFO 27744 [-/-/127.0.0.1/e2de3ae0-b3ef-11e7-b8da-db37031a6bb1/242ms POST /api/watermarker/data/creation] status 200 (rt: 239ms)
+2017-10-18 18:34:26,982 INFO 27744 [-/-/127.0.0.1/ea6f5550-b3ef-11e7-b8da-db37031a6bb1/6ms POST /api/watermarker/data/creation] status 200 (rt: 5ms)
+2017-10-18 18:35:12,991 INFO 27744 [-/-/127.0.0.1/05dbe6f0-b3f0-11e7-b8da-db37031a6bb1/4ms POST /api/watermarker/data/creation] status 200 (rt: 4ms)
+2017-10-18 18:35:20,268 INFO 27744 [-/-/::1/0a3248c0-b3f0-11e7-b8da-db37031a6bb1/388ms GET /api/watermarker/data/list] status 200 (rt: 388ms)
+2017-10-18 18:35:41,726 INFO 27744 [-/-/::1/16fc83e0-b3f0-11e7-b8da-db37031a6bb1/354ms GET /api/watermarker/data/list] status 200 (rt: 354ms)
+2017-10-18 18:39:40,277 INFO 12340 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 18:39:40,285 INFO 12340 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:21:35,405 INFO 15316 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:21:35,408 INFO 15316 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:21:45,711 INFO 28460 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:21:45,712 INFO 28460 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:27:00,332 INFO 19208 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:27:00,333 INFO 19208 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:29:10,404 INFO 16600 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:29:10,405 INFO 16600 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:37:29,707 INFO 6636 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:37:29,708 INFO 6636 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:45:11,906 INFO 23760 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:45:11,908 INFO 23760 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:49:38,692 INFO 6292 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:49:38,693 INFO 6292 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:53:18,585 INFO 10676 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:53:18,586 INFO 10676 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:54:36,798 INFO 7712 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:54:36,799 INFO 7712 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:55:29,117 INFO 29648 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 20:55:29,120 INFO 29648 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 20:55:32,182 INFO 29648 [-/-/127.0.0.1/a0165850-b403-11e7-af69-a39e20f23381/150ms POST /api/watermarker/data/creation] status 200 (rt: 149ms)
+2017-10-18 21:01:55,168 INFO 16504 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 21:01:55,169 INFO 16504 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 21:03:35,031 INFO 6004 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 21:03:35,033 INFO 6004 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 21:04:03,724 INFO 30228 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 21:04:03,725 INFO 30228 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 21:21:44,195 INFO 15388 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 21:21:44,202 INFO 15388 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 21:22:58,512 INFO 15388 [-/-/127.0.0.1/75608500-b407-11e7-9459-0b2b37d58c4a/211ms POST /api/watermarker/data/creation] status 200 (rt: 210ms)
+2017-10-18 21:24:11,047 INFO 15388 [-/-/127.0.0.1/a09c7b70-b407-11e7-9459-0b2b37d58c4a/7ms POST /api/watermarker/data/creation] status 200 (rt: 6ms)
+2017-10-18 21:26:27,076 INFO 15388 [-/-/127.0.0.1/f1b0dc40-b407-11e7-9459-0b2b37d58c4a/6ms POST /api/watermarker/data/creation] status 200 (rt: 6ms)
+2017-10-18 21:27:17,669 INFO 15388 [-/-/127.0.0.1/0fd89640-b408-11e7-9459-0b2b37d58c4a/5ms POST /api/watermarker/data/creation] status 200 (rt: 5ms)
+2017-10-18 21:27:40,415 INFO 15388 [-/-/127.0.0.1/1d6780f0-b408-11e7-9459-0b2b37d58c4a/6ms POST /api/watermarker/data/creation] status 200 (rt: 6ms)
+2017-10-18 21:27:52,890 INFO 14688 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-18 21:27:52,892 INFO 14688 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-18 21:28:12,575 INFO 14688 [-/-/127.0.0.1/309293e0-b408-11e7-a70e-d7786fdf7983/106ms POST /api/watermarker/data/creation] status 200 (rt: 104ms)
+2017-10-19 13:42:45,887 INFO 13556 [nut] nut version: 3.0.0, node version: v6.1.0, env: test
+2017-10-19 13:42:45,894 INFO 13556 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 13:44:40,130 INFO 13556 [-/-/::1/997a0310-b490-11e7-932f-2765b735315d/525ms GET /api/watermarker/data/list] status 200 (rt: 524ms)
+2017-10-19 13:46:23,790 INFO 13556 [-/-/::1/d74345d0-b490-11e7-932f-2765b735315d/2ms GET /api/watermarker/test/acquire] status 404 (rt: 1ms)
+2017-10-19 13:56:12,370 INFO 13556 [-/-/::1/36159b20-b492-11e7-932f-2765b735315d/0ms GET /api/watermarker/test/acquire] status 404 (rt: 0ms)
+2017-10-19 13:57:32,717 INFO 21320 [nut] nut version: 3.0.0, node version: v6.1.0, env: test
+2017-10-19 13:57:32,718 INFO 21320 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 13:59:11,689 INFO 21320 [-/-/::1/a0f70e60-b492-11e7-931f-5d62b0d981f2/19ms GET /api/watermarker/test/acquire] status 404 (rt: 17ms)
+2017-10-19 14:00:31,151 INFO 18768 [nut] nut version: 3.0.0, node version: v6.1.0, env: test
+2017-10-19 14:00:31,151 INFO 18768 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 14:01:11,451 INFO 20568 [nut] nut version: 3.0.0, node version: v6.1.0, env: test
+2017-10-19 14:01:11,453 INFO 20568 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 14:01:49,171 INFO 20616 [nut] nut version: 3.0.0, node version: v6.1.0, env: test
+2017-10-19 14:01:49,172 INFO 20616 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 14:02:21,579 INFO 20616 [-/-/::1/122646a0-b493-11e7-a73c-bba6960891a0/456ms GET /api/watermarker/data/list] status 200 (rt: 455ms)
+2017-10-19 14:10:06,944 INFO 21756 [nut] nut version: 3.0.0, node version: v6.1.0, env: test
+2017-10-19 14:10:06,945 INFO 21756 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 14:10:18,479 INFO 22160 [nut] nut version: 3.0.0, node version: v6.1.0, env: test
+2017-10-19 14:10:18,480 INFO 22160 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 14:11:44,982 INFO 22160 [-/-/::1/61f69940-b494-11e7-9a51-db2a6e79f4d1/20ms GET /api/watermarker/data/list] status 200 (rt: 18ms)
+2017-10-19 14:14:14,528 INFO 22160 [-/-/::1/bb19a8f0-b494-11e7-9a51-db2a6e79f4d1/5ms GET /api/watermarker/data/list] status 200 (rt: 4ms)
+2017-10-19 14:14:15,862 INFO 22160 [-/-/::1/bbe55d60-b494-11e7-9a51-db2a6e79f4d1/10ms GET /api/watermarker/data/list] status 200 (rt: 10ms)
+2017-10-19 14:14:37,022 INFO 20400 [nut] nut version: 3.0.0, node version: v6.1.0, env: test
+2017-10-19 14:14:37,022 INFO 20400 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 14:14:57,697 INFO 20400 [-/-/::1/d4d4ba00-b494-11e7-9d9f-7d050d20da43/10ms GET /api/watermarker/data/list] status 200 (rt: 9ms)
+2017-10-19 14:15:01,941 INFO 20400 [-/-/::1/d75c4f40-b494-11e7-9d9f-7d050d20da43/3ms GET /api/watermarker/test/acquire] status 200 (rt: 2ms)
+2017-10-19 15:59:57,162 INFO 19284 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 15:59:57,168 INFO 19284 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:01:09,581 INFO 10724 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:01:09,582 INFO 10724 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:02:57,114 INFO 15384 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:02:57,115 INFO 15384 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:06:10,519 INFO 12996 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:06:10,520 INFO 12996 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:10:31,833 INFO 11536 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:10:31,834 INFO 11536 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:11:54,360 INFO 13628 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:11:54,361 INFO 13628 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:13:08,482 INFO 15388 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:13:08,483 INFO 15388 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:13:42,045 INFO 13000 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:13:42,047 INFO 13000 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:16:31,355 INFO 18632 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:16:31,355 INFO 18632 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:20:31,659 INFO 24320 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:20:31,659 INFO 24320 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:21:28,593 INFO 19308 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:21:28,594 INFO 19308 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:25:43,329 INFO 14468 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:25:43,330 INFO 14468 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-19 16:30:33,335 INFO 24044 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-19 16:30:33,336 INFO 24044 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:31:01,906 INFO 3716 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:31:01,906 INFO 3716 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:32:04,606 INFO 3716 [-/-/::1/06ac7ad0-b608-11e7-84f0-c1447185ee53/9ms GET /api/v2/topics] status 404 (rt: 8ms)
+2017-10-21 10:33:33,165 INFO 3716 [-/-/::1/3b7582c0-b608-11e7-84f0-c1447185ee53/9ms GET /api/v2/topics] status 404 (rt: 8ms)
+2017-10-21 10:33:34,322 INFO 7692 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:33:34,323 INFO 7692 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:33:51,782 INFO 7692 [-/-/::1/468e3d50-b608-11e7-95fa-43a41745c390/14ms GET /api/v2/topics] status 404 (rt: 13ms)
+2017-10-21 10:35:39,757 INFO 3920 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:35:39,757 INFO 3920 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:36:27,086 INFO 6004 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:36:27,088 INFO 6004 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:38:13,955 INFO 8888 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:38:13,956 INFO 8888 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:38:26,184 INFO 8888 [-/-/::1/ea1ca970-b608-11e7-a882-17d030b08507/64ms GET /api/v2/topics] status 200 (rt: 63ms)
+2017-10-21 10:48:13,009 INFO 2312 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:48:13,011 INFO 2312 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:48:36,860 INFO 10028 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:48:36,860 INFO 10028 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:53:59,169 INFO 6964 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:53:59,170 INFO 6964 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:57:34,881 INFO 9796 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:57:34,881 INFO 9796 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 10:58:25,535 INFO 7108 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 10:58:25,535 INFO 7108 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 11:00:04,144 INFO 7108 [-/-/::1/efc1a3f0-b60b-11e7-9840-073fbac4f9ea/28ms GET /api/v2/topics/idsf] status 200 (rt: 26ms)
+2017-10-21 11:00:29,565 INFO 7108 [-/-/::1/fee8bad0-b60b-11e7-9840-073fbac4f9ea/3ms GET /api/v2/topic/idsf] status 404 (rt: 1ms)
+2017-10-21 11:01:38,781 INFO 8628 [nut] nut version: 3.0.0, node version: v6.1.0, env: local
+2017-10-21 11:01:38,782 INFO 8628 [nut] EGG_SERVER_ENV: undefined, NODE_ENV: undefined, UAE_MODE: undefined
+2017-10-21 11:01:43,300 INFO 8628 [-/-/::1/2adba530-b60c-11e7-bdc0-09b3fb47c3b5/12ms GET /api/v2/topic/idsf] status 404 (rt: 10ms)
+2017-10-21 11:01:49,666 INFO 8628 [-/-/::1/2ea72c20-b60c-11e7-bdc0-09b3fb47c3b5/8ms GET /api/v2/topics/idsf] status 200 (rt: 7ms)
+2017-10-21 11:03:51,690 INFO 8628 [-/-/::1/77628ea0-b60c-11e7-bdc0-09b3fb47c3b5/5ms POST /api/v2/topics] status 201 (rt: 5ms)

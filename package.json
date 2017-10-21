@@ -4,15 +4,19 @@
   "description": "service vpspaser",
   "private": true,
   "dependencies": {
-    "egg": "^1.7.0",
-    "egg-scripts": "^1.1.1",
     "@ali/nut": "^3.0.0",
     "ali-oss": "^4.10.1",
     "co-mysql": "^1.0.0",
     "co-request": "^1.0.0",
     "crypto": "^1.0.1",
+    "egg": "^1.7.0",
+    "egg-mongoose": "^2.1.1",
+    "egg-scripts": "^1.1.1",
+    "mongoose": "^4.12.3",
     "multiline": "^1.0.2",
-    "mysql": "^2.14.1"
+    "mysql": "^2.14.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "autod": "^2.9.0",
@@ -28,6 +32,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
+    "local": "node startup.js",
     "start": "egg-scripts start --daemon",
     "stop": "egg-scripts stop",
     "dev": "egg-bin dev",
